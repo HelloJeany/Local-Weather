@@ -1,55 +1,36 @@
-.block{
-    background-color: #202529;
-    opacity: .75;
-    color: white;
-    padding: 30px;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 15px;
-    font-size: 1em;
-    padding-bottom: 1%
+.image {
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+   
 }
 
-.spacer {
-    padding: 5%;
+#display {
+    background-image: url("https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+   height: 550px;
+    width: 700px;
+    margin-top: 10%;
+}
+
+#title {
+    font-size: 3em;
+    font-family: Arial Black;
 }
 
 body {
-    background: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+    color: black;
 }
 
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #b9a88e;
+.bold {
+    font-weight: bold;
 }
 
-li {
-    float: left;
+.info {
+    /*font-size: 2.5em;*/
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.info2 {
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
-li a:hover:not(.active) {
-    background-color: #202529;
-}
-
-.active {
-    background-color: #b9a88e;
-}
